@@ -1,0 +1,15 @@
+/auto-save-list
+\#*
+/elpa
+/recentf
+*~
+*.log
+ede-projects.el
+projectile-bookmarks.eld
+/semanticdb
+/anaconda-mode
+bookmarks
+custom.el
+/transient
+/url
+ac-comphist.dat
