@@ -88,6 +88,6 @@ Exempt major modes are defined in `display-line-numbers-exempt-modes'."
 (require-package 'rainbow-delimiters)
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode
 (require-package 'ztree)
-(user-package ztree :ensure t)
+(use-package ztree :ensure t)
 
 (provide 'init-general)
