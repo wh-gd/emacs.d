@@ -86,8 +86,8 @@ Exempt major modes are defined in `display-line-numbers-exempt-modes'."
   (setq which-key-idle-delay 0.1))
 
 (require-package 'rainbow-delimiters)
-(add-hook 'prog-mode-hook #'rainbow-delimiters-mode
-(require-package 'ztree)
+(add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
+(maybe-require-package 'ztree)
 (use-package ztree :ensure t)
 
 (provide 'init-general)
